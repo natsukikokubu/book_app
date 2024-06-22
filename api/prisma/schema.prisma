@@ -16,7 +16,9 @@ datasource db {
 
 model Book {
 id Int @id @default(autoincrement())
-content String
+title String
+summary String
+report String
 createdAt DateTime @default(now())
 
 }
